@@ -1,0 +1,7 @@
+{
+  "name": "dartdesigner",
+  "version": "0.1.0",
+  "dependencies": {
+    "bootflat": "*"
+  }
+}
