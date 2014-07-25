@@ -94,3 +94,11 @@
 .docs-footer p {
   margin-bottom: 0px;
 }
+
+.panel-heading a:hover {
+  color: white;
+}
+
+.panel-heading a:visited {
+  color: white;
+}
