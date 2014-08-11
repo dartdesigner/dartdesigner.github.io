@@ -28,6 +28,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#features">Features</a></li>
+            <li><a href="#gettingstarted">Getting Started</a></li>
             <li><a href="#releases">Releases</a></li>
             <li><a href="#license">License</a></li>
           </ul>
@@ -48,7 +49,7 @@
             Advanced tooling based on Eclipse Sirius for the Dart programming language.
           </div>
           <div class="col-md-3 col-md-offset-3">
-            <a href="https://github.com/dartdesigner/Dart-Designer/releases" role="button" class="btn btn-primary btn-block btn-lg">Download</a>
+            <a href="https://github.com/dartdesigner/Dart-Designer/releases/latest" role="button" class="btn btn-primary btn-block btn-lg">Download</a>
           </div>
           <div class="col-md-3">
             <a href="https://github.com/dartdesigner/Dart-Designer" role="button" class="btn btn-default btn-block btn-lg">Github</a>
@@ -59,10 +60,7 @@
 
     <div class="docs-section docs-feature" id="features">
       <div class="container">
-        <div class="row">
-          <h1>Features</h1>
-        </div>
-
+      
         <div class="row">
           <div class="col-md-6">
             <div class="jumbotron">
@@ -95,7 +93,7 @@
               <div class="jumbotron-photo"><img src="images/PackageDiagram.png"></div>
               <div class="jumbotron-contents">
                 <h2>Package Diagram</h2>
-                <p>The Package Diagram of the Dart Designer will let you have a bird eye view of your project by having a look at the various Dart packages used and their dependencies. From this main viewpoint, you can <strong>navigate to other representations</strong> of your Dart resources by jumping on very quickly to a Class Diagram representation of your Dart package.</p>
+                <p>The Package diagram of the Dart Designer will let you have a bird eye view of your project by having a look at the various Dart packages used and their dependencies. From this main viewpoint, you can <strong>navigate to other representations</strong> of your Dart resources by jumping on very quickly to a Class diagram representation of your Dart package.</p>
               </div>
             </div>
           </div>
@@ -105,7 +103,7 @@
               <div class="jumbotron-photo"><img src="images/ClassDiagram.png"></div>
               <div class="jumbotron-contents">
                 <h2>Class Diagram</h2>
-                <p>The Class Diagram is the main representation of the entities of your Dart application. Tailored to the need of Dart developers, this Class Diagram representation let you manipulate <strong>native concepts of the Dart language</strong> like metadata, applications or even libraries. From this representation, you can easily see the various relations between your entities (mixins, implements or extends).</p>
+                <p>The Class diagram is the main representation of the entities of your Dart application. Tailored to the need of Dart developers, this Class diagram representation let you manipulate <strong>native concepts of the Dart language</strong> like metadata, applications or even libraries. From this representation, you can easily see the various relations between your entities (mixins, implements or extends).</p>
               </div>
             </div>
           </div>
@@ -117,17 +115,61 @@
               <div class="jumbotron-photo"><img src="images/ExplorerDiagram.png"></div>
               <div class="jumbotron-contents">
                 <h2>Explorer Diagram</h2>
-                <p>The Explorer Diagram let you navigate in your Dart project as if it was on your file system. You can see your resources and navigate in the folders of your project easily. With this kind of representation, you will be able to see the relationships between your resources. Various kind of resources are natively supported in this representation.</p>
+                <p>The Explorer diagram let you navigate in your Dart project as if it was on your file system. You can see your resources and navigate in the folders of your project easily. You will also be able to see the relationships between your resources.</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-6">
             <div class="jumbotron">
-              <div class="jumbotron-photo"><img src="images/ExplorerDiagram_Relationships.png"></div>
+              <div class="jumbotron-photo"><img src="images/LibraryDiagram.png"></div>
+              <div class="jumbotron-contents">
+                <h2>Library Diagram</h2>
+                <p>The Library diagram will show the dependencies between the various libraries of your application. You will be able to see your libraries and their contents easily. This representation will show what is imported and exported.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="jumbotron">
+              <div class="jumbotron-photo"><img src="images/ModuleDiagram.png"></div>
+              <div class="jumbotron-contents">
+                <h2>Module Diagram</h2>
+                <p>The Module diagram displays your AngularDart modules and their related elements. With this representation, you can see how your components, controllers, decorators and formatters are organized.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="jumbotron">
+              <div class="jumbotron-photo"><img src="images/RouteDiagram.png"></div>
+              <div class="jumbotron-contents">
+                <h2>Route Diagram</h2>
+                <p>The Route diagram contains the various routes that have been declared in your AngularDart application. This diagram will let you see quickly how your components are linked to your routes in your application.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="jumbotron">
+              <div class="jumbotron-photo"><img src="images/Navigation.png"></div>
+              <div class="jumbotron-contents">
+                <h2>Navigation Support</h2>
+                <p>In order to ease the manipulation of all the representations in your Dart Designer project, you have the ability to quickly create new representations and navigate to existing ones without leaving your diagrams. Just select an element and right click on it to easily move to another representation if possible.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="jumbotron">
+              <div class="jumbotron-photo"><img src="images/Layers.png"></div>
               <div class="jumbotron-contents">
                 <h2>Layer Support</h2>
-                <p>In the Explorer Diagram, you can also easily see the relationships between the various assets of you projects. Those relationships are displayed in a dedicated layer so you can select when you want to display them. You can see how your various HTML pages are organized and the architecture of your stylesheets. The tools used to create those relationships are also specific to the layer.</p>
+                <p>In the Explorer diagram, you can also easily see the relationships between the various assets of you projects. Those relationships are displayed in a dedicated layer so you can select when you want to display them. You can see how your various HTML pages are organized and the architecture of your stylesheets.</p>
               </div>
             </div>
           </div>
@@ -138,7 +180,7 @@
             <div class="jumbotron">
               <div class="jumbotron-contents">
                 <h2>Unsynchronized Representations</h2>
-                <p>Most of the representation are not fully synchronized with your data, as a result if you want to create a Class Diagram, it does not have to display all the classes available in your Dart package. You can easily <strong>create multiple diagrams on various subsets of your entities.</strong>. If you have two sets of classes in a given folder, used for separate concerns in your application, you can create a Class Diagram for each set of classes in the folder.</p>
+                <p>Most of the representation are not fully synchronized with your data, as a result if you want to create a Class diagram, it does not have to display all the classes available in your Dart package. You can easily <strong>create multiple diagrams on various subsets of your entities.</strong>. If you have two sets of classes in a given folder, used for separate concerns in your application, you can create a Class diagram for each set of classes in the folder.</p>
               </div>
             </div>
           </div>
@@ -147,12 +189,29 @@
             <div class="jumbotron">
               <div class="jumbotron-contents">
                 <h2>Synchronized Data</h2>
-                <p>Contrary to the representations, the data of your Dart Designer projects are fully synchronized. Make a change on an entity in one representation (like a Class Diagram) and you can <strong>see the impact in real time on all the other representations</strong> using this entity (like another Class or Package Diagram). As a result, the state of your data in shared between all the representations, save in one editor and all the others will be saved.</p>
+                <p>Contrary to the representations, the data of your Dart Designer projects are fully synchronized. Make a change on an entity in one representation (like a Class diagram) and you can <strong>see the impact in real time on all the other representations</strong> using this entity (like another Class or Package diagram). As a result, the state of your data in shared between all the representations, save in one editor and all the others will be saved.</p>
               </div>
             </div>
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <div class="docs-section docs-gettingstarted" id="gettingstarted">
+      <div class="container">
+        <div class="row">
+          <h1>Getting Started</h1>
+
+          <div class="col-md-12">
+            <p>To start a DartDesigner project, use the "File -> New -> Project..." menu to access the New Project wizard. Then in the Dart Designer category, select the Dart Designer Project. Click "Next" and enter the name of your project, for example, DartDesignerProject. The next page of the wizard let you choose to activate or deactivate some viewpoints. For the moment, there is only one viewpoint available, so just click on "Finish".</p>
+            <img src="images/NewProject.png" class="img-thumbnail">
+            <p>A popup will appear to let you select the representations that should be created for the initialisation of your project. Keep the representation "&lt;name of your project&gt; Package Diagram" and uncheck "Dart Package Diagram". And now you have your first representation opened. You can now click on the "Add" action in the "Existing Elements" section to add into your diagram the root of your package (Dart Package) that has been created.</p>
+            <img src="images/Add.png" class="img-thumbnail">
+            <p>From this diagram with one package, you can use the right click menu to access the navigate menu. In the navigate menu, you can create a new Class diagram. In the Class diagram, just like in any other diagram, you can add new elements using the appropriate tools like "New Class" or "New Library".</p>
+            <p>Then you just have to test the creation of new diagrams with new elements or existing ones that you can import easily...</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -162,9 +221,9 @@
           <h1>Releases</h1>
           <ul>
             <li><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.1.0">Hyperbolic Void</a></li>
-            <li><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.2.0">Minimalist Dawn</a>  <span class="label label-info">latest release</span></li>
-            <li><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.3.0">Confidential Cruise</a> <span class="label label-primary">next release</span></li>
-            <li><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.4.0">Shielded Arrow</a></li>
+            <li><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.2.0">Minimalist Dawn</a></li>
+            <li><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.3.0">Confidential Cruise</a></li>
+            <li><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.4.0">Shielded Arrow  <span class="label label-info">latest release</span></a></li>
           </ul>
 
           <div class="col-md-8">
@@ -173,7 +232,7 @@
                 <h3 class="panel-title"><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.1.0">Hyperbolic Void</a></h3>
               </div>
               <div class="panel-body">
-                This first release will contain the first basic version of a couple of designers for Dart including the Package Diagram, the Explorer Diagram and the Class Diagram. It will also be used to iron out some of the details of the branding and the release engineering process.
+                This first release will contain the first basic version of a couple of designers for Dart including the Package diagram, the Explorer diagram and the Class diagram. It will also be used to iron out some of the details of the branding and the release engineering process.
               </div>
             </div>
           </div>
@@ -181,7 +240,7 @@
           <div class="col-md-8">
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title"><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.2.0">Minimalist Dawn - Latest Release</a></h3>
+                <h3 class="panel-title"><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.2.0">Minimalist Dawn</a></h3>
               </div>
               <div class="panel-body">
                 The main focus of this release will be the improvement of the Class and Explorer diagrams. New elements and relationships will be visible in the Class diagram like fields and methods. The direct edit will also be improved. The design of the Explorer diagram will be greatly improved and new elements will be visible.
@@ -192,10 +251,10 @@
           <div class="col-md-8">
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title"><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.3.0">Confidential Cruise - Next Release</a></h3>
+                <h3 class="panel-title"><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.3.0">Confidential Cruise</a></h3>
               </div>
               <div class="panel-body">
-                The main focus of this release will be the introduction of a new kind of representation. In this new representation, we will have a look at the relationships between libraries.
+                The main focus of this release will be the integration of the Dart Editor in Dart Designer. A new kind of representation will also be introduced, in a basic version, in order to have a bird eye view of the libraries. Starting with this release, the Dart Editor will now be embedded directly in Dart Designer. The other representations (Class, Explorer, Package) will also be improved.
               </div>
             </div>
           </div>
@@ -203,10 +262,10 @@
           <div class="col-md-8">
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title"><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.4.0">Shielded Arrow</a></h3>
+                <h3 class="panel-title"><a href="https://github.com/dartdesigner/Dart-Designer/releases/tag/v0.4.0">Shielded Arrow - Latest Release</a></h3>
               </div>
               <div class="panel-body">
-                To be announced
+                Shielded Arrow now introduces the support for AngularDart. Two new representations, Module diagram and Route diagram will now let you define the AngularDart-specific parts of your applications. Tons of new concepts have been added to represents AngularDart application and a new design for all the representations (Class, Explorer, Package, Library, etc) has also been introduced.
               </div>
             </div>
           </div>
